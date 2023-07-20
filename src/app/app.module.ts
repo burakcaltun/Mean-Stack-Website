@@ -9,6 +9,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { HttpClientModule } from '@angular/common/http' 
+
+
 
 
 import { AppComponent } from './app.component';
@@ -36,6 +39,7 @@ import { PostListComponent } from './posts/post-list/post-list.component';
     MatExpansionModule,
     MatIconModule,
     MatMenuModule,
+    HttpClientModule,
   
   ],
   providers: [],
