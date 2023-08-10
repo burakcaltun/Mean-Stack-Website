@@ -2,14 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://burak:PslJMYVAxtdykMia@cluster0.vzt01uk.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://yourName:yourApi@cluster0.vzt01uk.mongodb.net/?retryWrites=true&w=majority";
 
 const Post = require('./models/post');
 
 const app = express();
 
 
-//PslJMYVAxtdykMia
 const client = new MongoClient(uri, {
     serverApi: {
       version: ServerApiVersion.v1,
